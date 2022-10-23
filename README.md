@@ -2,10 +2,15 @@
 ### Instalacion y configuracion de Raspberry PI4
 Link -> https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#4-boot-ubuntu-server
 
+### Mapear IP de Raspberry PI4
+```console
+$ sudo nmap -sn 192.168.1.*
+```
+
 ### Configuracion de red.
 
-```
-sudo nano /etc/netplan/50-cloud-init.yaml
+```console
+$ sudo nano /etc/netplan/50-cloud-init.yaml
 ```
 ##### Forma/Version nueva y/o actualizada.
 ```yaml
