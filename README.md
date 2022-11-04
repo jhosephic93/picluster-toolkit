@@ -42,3 +42,10 @@ network:
             nameservers:
                 addresses: [8.8.8.8,8.8.4.4]
 ```
+
+### Run
+
+```console
+$ sudo netplan apply
+$ sudo reboot
+```
