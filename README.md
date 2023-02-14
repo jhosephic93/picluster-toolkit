@@ -49,3 +49,11 @@ network:
 $ sudo netplan apply
 $ sudo reboot
 ```
+
+## Install Desktop on Ubuntu 22.04
+
+```console
+$ sudo apt install xubuntu-desktop
+###En caso de error volver a correr el mismo script
+###Select gddm3
+```
